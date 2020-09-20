@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Gaegu&family=Sunflower:wght@500&display=swap");
+
+body {
+  background-color: #fcbb6d;
+  font-family: "Sunflower", sans-serif, "Gaegu", cursive;
+  color: #ff1d58;
+  text-align: center;
+}
+h1 {
+  margin: 2px;
+}
+button {
+  background: #ffffff;
+  padding: 3px;
+  margin: 1px;
+  border: 0;
+  border-radius: 20%;
+}
+ul {
+  list-style: none;
+}
+
+.js-clock {
+  color: #0049b7;
+  font-size: xxx-large;
+  margin: 10% 0 0 0;
+}
+.form,
+.greetings {
+  display: none;
+}
+.js-form {
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-size: xx-large;
+  color: #0049b7;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+.js-input {
+  display: none;
+  border: none;
+  border-bottom: 3px solid #0049b7;
+  height: 30px;
+  width: 30%;
+  background-color: transparent;
+  font-size: x-large;
+  margin: auto;
+  text-align: center;
+  color: #0049b7;
+}
+.js-input::placeholder {
+  color: #0049b7;
+}
+.js-input:focus::placeholder,
+.js-input-todo:focus::placeholder {
+  color: transparent;
+}
+.showing {
+  display: block;
+  font-size: x-large;
+}
+.js-input-todo {
+  display: block;
+  border: none;
+  border-bottom: 3px solid #ff1d58;
+  height: 30px;
+  width: 30%;
+  background-color: transparent;
+  font-size: large;
+  margin: auto;
+  text-align: center;
+  color: #ff1d58;
+}
+.js-input-todo::placeholder {
+  color: #ff1d58;
+}
+.bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+}
